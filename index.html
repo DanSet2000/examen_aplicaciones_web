@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d3fe34c8db.js" crossorigin="anonymous"></script>
+    <title>BioPark</title>
+</head>
+<body>
+    <!-- Sección Dedicada a la Cabecera de la Página (Header) -->
+    <header>
+        <div class="cabecera">
+            <p>info@biopark.com.ec | Llámanos: 022999000</p>
+
+            <ul>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-google-plus"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+        </div>
+        <div>
+            <p id="BioPark">BioPark</p>
+            <nav>
+                <ul>
+                    <li><a>El Centro</a></li>
+                    <li><a>Servicios</a></li>
+                    <li><a>Planes y Precios</a></li>
+                    <li><a>App Móvil</a></li>
+                    <li><a>Opiniones</a></li>
+                    <li><a>Contactos</a></li>
+                    <li><button id="btnRegis">Registrarse</button></li>
+                    <li><button id="btnAcce">Acceder</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Dedicada a la Información de BioPark -->
+        <section id="sec-info">
+            <div class="info">
+                <h2>Diversión pura en BioPark!</h2>
+                <p>Calle Valencia y Asturián</p>
+                <p>+36 633-sm1-876</p>
+                <button>Compra tu Ticket!</button>
+            </div>
+
+            <img id="oso" src="https://fastly.picsum.photos/id/433/300/300.jpg?hmac=04_lO0j-rnEGAQI4E3w_5DD2Mzhsh0aJLcZ3UmCSmsE" alt="">
+
+
+        </section>
+
+        <!-- Sección Dedicada a los Servicios que Ofrece BioPark -->
+        <section id="sec-servicios">
+            <h1>Nuestros Servicios</h1>
+
+            <ul>
+                <li>
+                    <h3>Guardería Canina</h3>
+                    <img src="https://picsum.photos/id/237/200/200" alt="">
+                </li>
+                <li>
+                    <h3>Entrenamiento</h3>
+                    <img src="https://picsum.photos/id/169/200/200" alt="">
+                </li>
+                <li>
+                    <h3>Animales Salvajes</h3>
+                    <img src="https://picsum.photos/id/219/200/200" alt="">
+                </li>
+            </ul>
+        </section>
+
+        <section id="sec-precios">
+            <h1>Planes y Precios</h1>
+
+            <ul>
+                <li>
+                    <h3>Lunes a Viernes</h3>
+                    <table>
+                        <tr>
+                            <th>Adultos</th>
+                            <th>$16</th>
+                        </tr>
+                        <tr>
+                            <th>Niños</th>
+                            <th>$6</th>
+                        </tr>
+                        <tr>
+                            <th>Tercera Edad</th>
+                            <th>$7</th>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <h3>Sábados y Domingos</h3>
+                    <table>
+                        <tr>
+                            <th>Adultos</th>
+                            <th>$26</th>
+                        </tr>
+                        <tr>
+                            <th>Niños</th>
+                            <th>$16</th>
+                        </tr>
+                        <tr>
+                            <th>Tercera Edad</th>
+                            <th>$17</th>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="sec-app">
+            <p>Biopark App está disponible en:</p>
+            <ul>
+                <li><a>
+                    <i class="fa-brands fa-apple fa-2xl"></i>
+                    <p>Descargar desde aquí</p>
+                </a></li>
+                <li><a>
+                    <i class="fa-brands fa-android fa-2xl"></i>
+                    <p>Descargar desde aquí</p>
+                </a></li>
+            </ul>
+        </section>
+
+        <section id="sec-opinion">
+            <h1>Opiniones de Nuestros Clientes</h1>
+            <p>Más de 35.000 clientes satisfechos</p>
+                <ul>
+                    <li>
+                        <p><b>Jesús Luiz Carbajo</b></p>
+                        <p>Fui con mi familia y disfrutamos mucho. La atención es de primera! Recomendado!</p>
+                    </li>
+                    <li>
+                        <p><b>María Luisa Naranjo</b></p>
+                        <p>Una tarde inolvidable en con toda la familia!</p>
+                    </li>
+                </ul>
+        </section>
+
+        <section id="sec-contacto">
+            <p>En BioPark queremos ayudarte en lo que necesites.</p>
+            <p>Utiliza el siguiente formulario para solicitar más información</p>
+            <ul>
+                <li>
+                    <img src="https://picsum.photos/id/237/200/200" alt="">
+                </li>
+                <li>
+                    <form>
+                        <input class="ingresa_Datos" type="text" name="name" placeholder="Nombre*">
+                        <input class="ingresa_Datos" type="text" name="email" placeholder="Email*">
+                        <input class="ingresa_Datos" type="text" name="msj" placeholder="Mensaje*">
+                        <input class="ingresa_Datos" type="checkbox" id="check" name="check">
+                        <label for="check">Acepto la Política de Privacidad</label>
+                        <input class="ingresa_Datos" type="submit" value="Contactar">
+                        <p>*Campos Obligatorios</p>
+
+                    </form>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+             <li>
+                 <p>Sobre nosotros |</p>
+             </li>
+             <li>
+                 <p>Aviso Legal y Política de Privacidad |</p>
+             </li>
+             <li>
+                 <p>Uso de cookies |</p>
+             </li>
+             <li>
+                 <p>Condiciones Generales de Uso</p>
+             </li>
+        </ul>
+         <p>2023 - Examen de AppWeb</p>
+         <p>Desarrollado por Daniel Carvajal, tu partner tecnológico</p>
+     </footer>
+</body>
+</html>

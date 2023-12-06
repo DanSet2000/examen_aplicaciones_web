@@ -1,0 +1,267 @@
+*{margin: 0px; padding: 0px;}
+/*{border: 1px solid red;}
+
+/* Agregar la Fuente Sunny Spells */
+@font-face {
+    font-family: Sunny;
+    src: url(../fonts/SunnySpells.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* Estilos Aplicados en la Cabecera */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+}
+.cabecera{
+    background-color: #1D8B08;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+}
+.cabecera ul{
+    line-height: 10px;
+    margin-top: -20px;
+}
+.cabecera li{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    width: 25px;
+}
+#BioPark{
+    padding-left: 10%;
+    font-family: Sunny;
+    font-size: 30px;
+    margin-top: 5px;
+}
+nav{
+    text-align: center;
+}
+header nav ul{
+    margin-top: -200px;
+    margin-left: 625px;
+    float: left;
+    padding: 8%;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+header nav li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px;
+}
+header nav button{
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+#btnRegis{
+    background-color: #209cd7;
+}
+#btnAcce{
+    background-color: #209cd7;
+}
+header nav li:hover{color: #1D8B08}
+#btnAcce:hover{background-color: #1D8B08;} 
+#btnRegis:hover{background-color: #1D8B08;} 
+
+body{
+    position: relative;
+    background-color: lightgrey;
+}
+
+#sec-info{
+    height: 400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-image: url(https://picsum.photos/id/127/1096/768);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sec-info h2{
+    font-size: 30px;
+    
+}
+.info{
+    flex: auto;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 10%;
+    line-height: 45px;
+}
+#sec-info button{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px;
+    cursor: pointer;
+}
+#sec-info button:hover{background-color: #1D8B08; color: white;}
+#oso{
+    margin-top: -200px;
+    margin-left: 1400px;
+    border-radius: 50%;
+    border:10px solid #1D8B08;
+}
+#oso:hover{transform:scale(1.1,1.1); transition: 300ms;}
+
+#sec-servicios{
+    height: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    flex: auto;
+    justify-content: center;
+    color: #1D8B08;
+    text-align: center;
+}
+#sec-servicios ul{
+    margin-left: 250px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#sec-servicios li{
+    justify-content: center;
+    margin: 0 250px 2500px 0;
+    color: black;
+    display: inline-block;
+    line-height: 70px;
+}
+
+#sec-servicios img{
+    border-radius: 50%;
+}
+#sec-servicios img:hover{transform:scale(1.1,1.1); transition: 300ms;}
+
+#sec-precios{
+    height: 500px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#sec-precios h1{
+    color: #1D8B08;
+}
+#sec-precios li{
+    flex: auto;
+    display: inline-block;
+    margin: 250px;
+    margin-top: 80px;
+}
+#sec-precios h3{
+    line-height: 80px;
+}
+
+#sec-precios table{
+    border: 1px solid rgba(132, 153, 2, 0.2);
+}
+
+#sec-precios tr, th{
+    padding: 30px;
+    background-color: rgba(132, 153, 2, 0.2);
+    border: 1px solid rgba(132, 153, 2, 0.2);
+}
+
+#sec-precios tr:nth-child(odd){
+    background-color: rgba(2,163,26,0.2);
+}
+#sec-precios tr:hover{background-color: #1D8B08; color: white;}
+
+#sec-app{
+    font-size: 15px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#sec-app ul{
+    text-align: center;
+    list-style-type: none;
+    line-height: 32px;
+    margin: 60px;
+}
+#sec-app li{
+    display: inline-block;
+    margin: 6px;
+    background-color: #1D8B08;
+    box-sizing: content-box;
+    height: 70px; width: 300px;
+    border: 2px none #A3A656;
+    border-radius: 15px;
+}
+
+#sec-opinion{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    flex: auto;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+}
+#sec-opinion h1{
+    color: #1D8B08;
+}
+
+#sec-opinion li{
+    background-color: #209cd7;
+    border-radius: 5px;
+    border: 0px;
+    padding: 30px;
+    margin: 40px;
+    list-style-type: none;
+    text-align: left;
+}
+
+#sec-contacto{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-color: #444545;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#sec-contacto ul{
+    list-style-type: none;
+}
+#sec-contacto li{
+    display: inline-block;
+}
+
+#sec-contacto input{
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+footer li{
+    color: #209dc7;
+    display: inline-block;
+}
+footer li:hover{color: white}
